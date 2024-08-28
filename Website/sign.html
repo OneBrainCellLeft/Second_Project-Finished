@@ -13,7 +13,7 @@
     <!-- Navbar Section -->
     <nav class="navbar">
         <div class="navbar__container">
-            <a href="index.html" id="navbar__logo"> UP </a>
+            <a href="#" id="navbar__logo"> UP </a>
             <div class="navbar__toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -21,7 +21,7 @@
             </div>
             <ul class="navbar__menu">
                 <li class="navbar__item">
-                    <a href="#" class="navbar__links"> HOME </a>
+                    <a href="index.html" class="navbar__links"> HOME </a>
                 </li>
                 <li class="navbar__item">
                     <a href="#" class="navbar__links"> Tech </a>
@@ -59,8 +59,8 @@
                     <p> Lost Password ? <a href="#"> Click Here </a></p>
                 </div>
                 <div class="btn__field">
-                    <button type="button" id="signupbtn"> <b> Sign Up </b> </button>
-                    <button type="button" id="loginbtn" class="disable"> <b> Log In </b> </button>
+                    <button type="button" id="signupbtn" class="disable"> <b> Sign Up </b> </button>
+                    <button type="button" id="loginbtn"> <b> Log In </b> </button>
                 </div>
             </form>
         </div>
@@ -74,17 +74,18 @@
         loginbtn.onclick = function() {
             namefield.style.maxHeight = "0";
             title.innerHTML = "Log In";
-            signupbtn.classList.add("disable");
-            loginbtn.classList.remove("disable");
+            signupbtn.classList.remove("disable");
+            loginbtn.classList.add("disable");
         };
 
         signupbtn.onclick = function() {
             namefield.style.maxHeight = "65px";
             title.innerHTML = "Sign Up";
-            signupbtn.classList.remove("disable");
-            loginbtn.classList.add("disable");
+            signupbtn.classList.add("disable");
+            loginbtn.classList.remove("disable");
         };
     </script>
     <!-- Sign Section -->
+     
 </body>
 </html>

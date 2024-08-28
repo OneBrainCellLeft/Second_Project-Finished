@@ -587,7 +587,7 @@
     top: 5%;
     left: 50%;
     transform: translate(-50%, 50%);
-    background:#23566975;
+    background:#05886c75;
     padding: 50px 60px 70px;
     border-radius: 20px;
     text-align: center;
@@ -657,6 +657,7 @@ form p a {
     flex-basis: 48%;
     background: #fff;
     color: #141414;
+    margin-top: 20px;
     font-size: 15px;
     height: 40px;
     border-radius: 20px;
